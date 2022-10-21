@@ -1,0 +1,45 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "studentAddress",
+                "type": "address"
+            },
+            {
+                "name": "certificateHash",
+                "type": "string"
+            }
+        ],
+        "name": "addCertificate",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "ipfsHash",
+                "type": "string"
+            }
+        ],
+        "name": "verifyCertificate",
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
